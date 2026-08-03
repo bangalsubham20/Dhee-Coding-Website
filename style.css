@@ -28,15 +28,15 @@ button {
     font-family: inherit;
 }
 
-/* UNIFORM SECTION PADDING (ALL SECTIONS)*/
+/* UNIFORM SECTION PADDING & EXPANDED WIDTH */
 .top-bar,
 .hero-section,
 .section-container,
 .sub-nav-wrapper,
 .footer-container,
 .copyright-container {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
 }
 
 /* TOP NOTICE BAR */
@@ -106,7 +106,8 @@ button {
 
 .header-container {
     background: #ffffff;
-    width: 1120px;
+    width: 1260px;
+    max-width: 96%;
     height: 68px;
     border-radius: 40px;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.07);
@@ -140,7 +141,8 @@ button {
 
 /* HERO SECTION */
 .hero-section {
-    max-width: 1120px;
+    width: 1260px;
+    max-width: 96%;
     margin: 42px auto 55px auto;
     text-align: center;
 }
@@ -163,6 +165,7 @@ button {
 .form-pill-bar {
     background: #ffffff;
     width: 700px;
+    max-width: 92%;
     height: 56px;
     margin: 28px auto 44px auto;
     border-radius: 35px;
@@ -217,7 +220,7 @@ button {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
 }
 
 .center-col {
@@ -294,8 +297,9 @@ button {
 
 /* COMMON SECTION STYLES */
 .section-container {
-    max-width: 1120px;
-    margin: 70px auto;
+    width: 1260px;
+    max-width: 96%;
+    margin: 60px auto;
     text-align: center;
 }
 
@@ -443,7 +447,7 @@ button {
 .sub-nav-wrapper {
     display: flex;
     justify-content: center;
-    margin: 55px auto 15px auto;
+    margin: 45px auto 15px auto;
 }
 
 .sub-nav-bar {
@@ -499,7 +503,7 @@ button {
 }
 
 .feat-cyan {
-    background-color: #d7f0fb;
+    background-color: #dcf4f9;
 }
 
 .feat-violet {
@@ -553,22 +557,6 @@ button {
     max-width: 300px;
 }
 
-/* .vertical-connector {
-    width: 2px;
-    height: 26px;
-    background-color: #e05307;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.node-dot {
-    color: #e05307;
-    font-size: 11px;
-    background: #fff;
-    border-radius: 50%;
-} */
-
 /* OUR STUDENTS WORK AT SECTION */
 .companies-box {
     background-color: #eef0f3;
@@ -618,19 +606,9 @@ button {
 /* CAREER TRANSFORMATION COURSES */
 .course-timeline-container {
     position: relative;
-    max-width: 920px;
+    max-width: 980px;
     margin: 44px auto 0 auto;
 }
-
-/* .central-timeline-line {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 3px;
-    background: #e05307;
-    transform: translateX(-50%);
-} */
 
 .course-timeline-row {
     display: flex;
@@ -647,9 +625,8 @@ button {
     justify-content: flex-start;
 }
 
-
 .course-detail-box {
-    width: 400px;
+    width: 440px;
     background: #ffffff;
     border-radius: 16px;
     padding: 18px 16px;
@@ -701,7 +678,7 @@ button {
     border-radius: 26px;
     padding: 42px 16px;
     text-align: center;
-    max-width: 960px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 
@@ -832,7 +809,8 @@ button {
 }
 
 .footer-container {
-    max-width: 1120px;
+    width: 1260px;
+    max-width: 96%;
     margin: 0 auto;
     padding-bottom: 44px;
     display: grid;
@@ -878,7 +856,8 @@ button {
 }
 
 .copyright-container {
-    max-width: 1120px;
+    width: 1260px;
+    max-width: 96%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
