@@ -39,9 +39,7 @@ button {
     padding-right: 16px !important;
 }
 
-/* ==========================================
-   TOP NOTICE BAR
-========================================== */
+/* TOP NOTICE BAR */
 .top-bar {
     background: linear-gradient(180deg, #fff7d6 0%, #fffbe6 100%);
     text-align: center;
@@ -96,9 +94,7 @@ button {
     margin-right: 4px;
 }
 
-/* ==========================================
-   MAIN HEADER NAVIGATION
-========================================== */
+/* MAIN HEADER NAVIGATION */
 .main-header {
     display: flex;
     justify-content: center;
@@ -142,9 +138,7 @@ button {
     font-weight: 700;
 }
 
-/* ==========================================
-   HERO SECTION
-========================================== */
+/* HERO SECTION */
 .hero-section {
     max-width: 1120px;
     margin: 42px auto 55px auto;
@@ -298,9 +292,7 @@ button {
     object-fit: cover;
 }
 
-/* ==========================================
-   COMMON SECTION STYLES
-========================================== */
+/* COMMON SECTION STYLES */
 .section-container {
     max-width: 1120px;
     margin: 70px auto;
@@ -321,9 +313,7 @@ button {
     margin-top: 8px;
 }
 
-/* ==========================================
-   SUCCESS JOURNEY SECTION
-========================================== */
+/* SUCCESS JOURNEY SECTION */
 .testimonials-grid {
     display: flex;
     gap: 16px;
@@ -449,9 +439,7 @@ button {
     color: #333;
 }
 
-/* ==========================================
-   SUB NAVIGATION BAR
-========================================== */
+/* SUB NAVIGATION BAR */
 .sub-nav-wrapper {
     display: flex;
     justify-content: center;
@@ -474,9 +462,7 @@ button {
     color: #555555;
 }
 
-/* ==========================================
-   WHAT YOU GET? SECTION
-========================================== */
+/*  WHAT YOU GET? SECTION  */
 .feature-cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -532,9 +518,7 @@ button {
     background-color: #ffe2ca;
 }
 
-/* ==========================================
-   WHO WE ARE? SECTION
-========================================== */
+/* WHO WE ARE? SECTION */
 .timeline-nodes-wrapper {
     display: flex;
     flex-direction: column;
@@ -584,9 +568,7 @@ button {
     border-radius: 50%;
 }
 
-/* ==========================================
-   OUR STUDENTS WORK AT SECTION
-========================================== */
+/* OUR STUDENTS WORK AT SECTION */
 .companies-box {
     background-color: #eef0f3;
     border-radius: 22px;
@@ -632,9 +614,7 @@ button {
     text-align: center;
 }
 
-/* ==========================================
-   CAREER TRANSFORMATION COURSES
-========================================== */
+/* CAREER TRANSFORMATION COURSES */
 .course-timeline-container {
     position: relative;
     max-width: 920px;
@@ -729,9 +709,7 @@ button {
     color: #e05307;
 }
 
-/* ==========================================
-   CTA BANNER SECTION
-========================================== */
+/* CTA BANNER SECTION */
 .cta-banner-box {
     background: linear-gradient(135deg, #fff9e6 0%, #ffeed5 100%);
     border: 1.5px solid #ffd59e;
@@ -781,9 +759,7 @@ button {
     font-size: 11px;
 }
 
-/* ==========================================
-   TEAM MEMBERS & MENTORS
-========================================== */
+/* TEAM MEMBERS & MENTORS */
 .tab-switcher {
     display: inline-flex;
     background: #ffffff;
@@ -863,9 +839,7 @@ button {
     border-radius: 3px;
 }
 
-/* ==========================================
-   FOOTER SECTION
-========================================== */
+/* FOOTER SECTION */
 .footer-section {
     background: linear-gradient(180deg, #fff7f9 0%, #ffedf2 100%);
     padding: 50px 0 0 0;
