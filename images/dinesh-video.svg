@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 200" width="350" height="200">
+  <rect width="350" height="200" fill="#1b1c1e"/>
+  <!-- Video background representation for Dinesh Babu -->
+  <text x="175" y="80" font-family="'Poppins', sans-serif" font-weight="800" font-size="28" fill="#F37021" text-anchor="middle">14 LPA Job</text>
+  <circle cx="175" cy="115" r="28" fill="#F37021"/>
+  <polygon points="170,103 186,115 170,127" fill="#FFF"/>
+</svg>

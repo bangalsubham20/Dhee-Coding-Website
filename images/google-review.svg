@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50" width="220" height="50">
+  <text x="0" y="24" font-family="'Poppins', sans-serif" font-weight="700" font-size="22">
+    <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
+  </text>
+  <text x="85" y="24" font-family="'Poppins', sans-serif" font-weight="600" font-size="14" fill="#555">Reviews</text>
+  <g transform="translate(0, 32)">
+    <text font-size="16" fill="#FFC107">★★★★★</text>
+  </g>
+</svg>
