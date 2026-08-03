@@ -523,6 +523,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
     margin-top: 36px;
 }
 
@@ -552,7 +553,7 @@ button {
     max-width: 300px;
 }
 
-.vertical-connector {
+/* .vertical-connector {
     width: 2px;
     height: 26px;
     background-color: #e05307;
@@ -566,7 +567,7 @@ button {
     font-size: 11px;
     background: #fff;
     border-radius: 50%;
-}
+} */
 
 /* OUR STUDENTS WORK AT SECTION */
 .companies-box {
@@ -621,7 +622,7 @@ button {
     margin: 44px auto 0 auto;
 }
 
-.central-timeline-line {
+/* .central-timeline-line {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -629,7 +630,7 @@ button {
     width: 3px;
     background: #e05307;
     transform: translateX(-50%);
-}
+} */
 
 .course-timeline-row {
     display: flex;
@@ -646,22 +647,6 @@ button {
     justify-content: flex-start;
 }
 
-.timeline-badge-node {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30px;
-    height: 30px;
-    background-color: #e05307;
-    color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 15px;
-    z-index: 2;
-}
 
 .course-detail-box {
     width: 400px;
