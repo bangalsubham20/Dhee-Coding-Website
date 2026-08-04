@@ -1,4 +1,3 @@
-/* RESET & GLOBAL STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +31,6 @@ button {
     font-family: inherit;
 }
 
-/* UNIFORM SECTION PADDING & EXPANDED WIDTH */
 .top-bar,
 .hero-section,
 .section-container,
@@ -43,7 +41,6 @@ button {
     padding-right: 4px !important;
 }
 
-/* TOP NOTICE BAR */
 .top-bar {
     background: linear-gradient(180deg, #fff7d6 0%, #fffbe6 100%);
     text-align: center;
@@ -98,7 +95,6 @@ button {
     margin-right: 4px;
 }
 
-/* MAIN HEADER NAVIGATION */
 .main-header {
     display: flex;
     justify-content: center;
@@ -148,7 +144,6 @@ button {
     font-weight: 700;
 }
 
-/* HERO SECTION */
 .hero-section {
     width: 1260px;
     max-width: 96%;
@@ -170,7 +165,6 @@ button {
     margin-top: 10px;
 }
 
-/* Form Pill Bar */
 .form-pill-bar {
     background: #ffffff;
     width: 700px;
@@ -218,7 +212,6 @@ button {
     white-space: nowrap;
 }
 
-/* Hero 3-Column Grid */
 .hero-grid {
     display: flex;
     gap: 16px;
@@ -284,7 +277,6 @@ button {
     background-color: #e0f7e4;
 }
 
-
 .hero-media-frame {
     width: 100%;
     height: 370px;
@@ -299,7 +291,6 @@ button {
     object-fit: cover;
 }
 
-/* COMMON SECTION STYLES */
 .section-container {
     width: 1260px;
     max-width: 96%;
@@ -321,7 +312,6 @@ button {
     margin-top: 8px;
 }
 
-/* SUCCESS JOURNEY SECTION */
 .testimonials-grid {
     display: flex;
     gap: 16px;
@@ -447,7 +437,6 @@ button {
     color: #333;
 }
 
-/* SUB NAVIGATION BAR */
 .sub-nav-wrapper {
     display: flex;
     justify-content: center;
@@ -483,7 +472,6 @@ button {
     font-weight: 600;
 }
 
-/*  WHAT YOU GET? SECTION  */
 .feature-cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -539,7 +527,6 @@ button {
     background-color: #ffe2ca;
 }
 
-/* WHO WE ARE? SECTION */
 .timeline-nodes-wrapper {
     display: flex;
     flex-direction: column;
@@ -574,7 +561,6 @@ button {
     max-width: 300px;
 }
 
-/* OUR STUDENTS WORK AT SECTION */
 .companies-box {
     background-color: #eef0f3;
     border-radius: 22px;
@@ -620,7 +606,6 @@ button {
     text-align: center;
 }
 
-/* CAREER TRANSFORMATION COURSES */
 .course-timeline-container {
     position: relative;
     max-width: 980px;
@@ -688,7 +673,6 @@ button {
     color: #e05307;
 }
 
-/* CTA BANNER SECTION */
 .cta-banner-box {
     background: linear-gradient(135deg, #fff9e6 0%, #ffeed5 100%);
     border: 1.5px solid #ffd59e;
@@ -738,7 +722,6 @@ button {
     font-size: 11px;
 }
 
-/* TEAM MEMBERS & MENTORS */
 .tab-switcher {
     display: inline-flex;
     background: #ffffff;
@@ -818,7 +801,6 @@ button {
     border-radius: 3px;
 }
 
-/* FOOTER SECTION */
 .footer-section {
     background: linear-gradient(180deg, #fff7f9 0%, #ffedf2 100%);
     padding: 50px 0 0 0;
@@ -912,7 +894,6 @@ button {
     background: #ff0000;
 }
 
-/* Fixed Floating WhatsApp */
 .floating-whatsapp {
     position: fixed;
     bottom: 24px;
