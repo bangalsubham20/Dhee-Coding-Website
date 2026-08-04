@@ -6,6 +6,10 @@
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fffdf7;
     color: #222222;
@@ -99,9 +103,8 @@ button {
     display: flex;
     justify-content: center;
     margin-top: -14px;
-    position: sticky;
-    top: 14px;
-    z-index: 100;
+    position: relative;
+    z-index: 10;
 }
 
 .header-container {
@@ -122,18 +125,24 @@ button {
     height: 36px;
 }
 
+.header-container .sub-nav-bar,
 .nav-menu {
     display: flex;
     gap: 16px;
     align-items: center;
 }
 
+.header-container .sub-nav-bar a,
 .nav-menu a {
     font-size: 13.5px;
     font-weight: 500;
     color: #444444;
+    transition: color 0.2s ease;
 }
 
+.header-container .sub-nav-bar a:hover,
+.header-container .sub-nav-bar a.active,
+.nav-menu a:hover,
 .nav-menu a.active {
     color: #e65100;
     font-weight: 700;
@@ -443,8 +452,12 @@ button {
     display: flex;
     justify-content: center;
     margin: 45px auto 15px auto;
+    position: sticky;
+    top: 14px;
+    z-index: 99;
 }
 
+.sub-nav-wrapper .nav-menu,
 .sub-nav-bar {
     background: #ffffff;
     padding: 8px 16px;
@@ -453,12 +466,21 @@ button {
     display: flex;
     gap: 18px;
     border: 1px solid #eeeeee;
+    align-items: center;
 }
 
+.sub-nav-wrapper .nav-menu a,
 .sub-nav-bar a {
     font-size: 13px;
     font-weight: 500;
     color: #555555;
+    transition: color 0.2s ease;
+}
+
+.sub-nav-wrapper .nav-menu a:hover,
+.sub-nav-bar a:hover {
+    color: #e65100;
+    font-weight: 600;
 }
 
 /*  WHAT YOU GET? SECTION  */
